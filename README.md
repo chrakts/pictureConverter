@@ -1,7 +1,13 @@
 # pictureConverter
-Converts bmp to C++ variables 
+Konvertiert bmp's nach C++ Variablen
 
-Picture must be 32x32
+Zur Zeit nur 32x32 Pixel-Bilder
+Byteanordnung an dogDisplays angepasst
+
+## toDo:
+* Variable Bildergrößen
+* ePaper-Display Unterstützung
+
 
 * Laden von [https://materialdesignicons.com/]
 * 24×24 - schwarz
@@ -11,5 +17,3 @@ Picture must be 32x32
 * Ebene→Ebene auf Bildgröße
 * Bild→Modus→indiziert→SChw.-Weiß-Palette 1 bit
 * Exportieren als bmp
-
-Supports dogDisplays
