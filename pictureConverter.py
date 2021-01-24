@@ -104,8 +104,7 @@ resulthFile.write("#define %s_H_\n\n"%resultFileName.upper())
 
 resulthFile.write("#include <avr/pgmspace.h>\n\n")
 
-files = glob.glob(rootdir+'/*.bmp') 
-print(files)
+files = sorted(glob.glob(rootdir+'/*.bmp'))
 
 for picFile in files:
   print("------------- %s -------------"%picFile)
